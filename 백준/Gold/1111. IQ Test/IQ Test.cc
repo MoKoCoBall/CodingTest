@@ -16,10 +16,10 @@ int main(void) {
     cin >> V[i];
   }
 
-  if (V.size() == 1) {
+  if (N == 1) {
     cout << "A";
     return 0;
-  } else if (V.size() == 2) {
+  } else if (N == 2) {
     if (V[0] == V[1]) {
       cout << V[0];
       return 0;
