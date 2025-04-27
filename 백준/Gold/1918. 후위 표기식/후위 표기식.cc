@@ -6,7 +6,6 @@ int compare(char c) {
   if (c == '(') return 0;
   if (c == '+' || c == '-') return 1;
   if (c == '*' || c == '/') return 2;
-  return 3;
 }
 int main(void) {
   ios::sync_with_stdio(false);
